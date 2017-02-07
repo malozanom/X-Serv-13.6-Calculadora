@@ -28,6 +28,7 @@ elif operacion == "divide":
         print(operando1 / operando2)
     except ZeroDivisionError:
         sys.exit("No sé dividir por cero")
+
 elif operacion == "multiplica":
     print(operando1 * operando2)
 
